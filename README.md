@@ -26,22 +26,22 @@ Line 3: PLC startup status.
 Next there will be a line for each of the states. Each line will contain
 the following numbers, separated from each other by white spaces:
 
-  •State identification number. The states of the automaton will be represented
-  through natural numbers. The numbering of the states will correspond to the
-  first numbers starting at 0.
+&emsp;• State identification number. The states of the automaton will be represented
+&emsp;through natural numbers. The numbering of the states will correspond to the
+&emsp;first numbers starting at 0.
   
-  • A 1 if it is an acceptance state and a 0 otherwise.
+&emsp;• A 1 if it is an acceptance state and a 0 otherwise.
 
-  • Number of transitions that the state has.
+&emsp;• Number of transitions that the state has.
 
 Next, for each of the transitions, and using spaces in
 white as separators, the following information will be detailed:
 
-  &emsp;◦ Input symbol necessary for the transition to occur. I'll stop-
-present the empty string (not consuming input symbol) will be used
-the character &
+&emsp;◦ Input symbol necessary for the transition to occur. I'll stop-
+&emsp;present the empty string (not consuming input symbol) will be used
+&emsp;the character &
 
-  • Destination state of the transition.
+&emsp;• Destination state of the transition.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
