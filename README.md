@@ -23,7 +23,7 @@ Line 2: Total number of states of the automaton.
 
 Line 3: PLC startup status.
 
--Next there will be a line for each of the states. Each line will contain
+1.Next there will be a line for each of the states. Each line will contain
 the following numbers, separated from each other by white spaces:
 
   -State identification number. The states of the automaton will be represented
