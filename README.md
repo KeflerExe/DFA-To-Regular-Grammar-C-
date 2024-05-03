@@ -21,7 +21,7 @@ Line 1: Alphabet symbols separated by spaces.
 
 Line 2: Total number of states of the automaton.
 
-Line 3: PLC startup status.
+Line 3: DFA start state.
 
 Next there will be a line for each of the states. Each line will contain
 the following numbers, separated from each other by white spaces:
@@ -37,8 +37,8 @@ the following numbers, separated from each other by white spaces:
 Next, for each of the transitions, and using spaces in
 white as separators, the following information will be detailed:
 
-&emsp;◦ Input symbol necessary for the transition to occur. I'll stop-
-&emsp;present the empty string (not consuming input symbol) will be used
+&emsp;◦ Input symbol necessary for the transition to occur. To represent
+&emsp;the empty string (not consuming input symbol) will be used
 &emsp;the character &
 
 &emsp;• Destination state of the transition.
