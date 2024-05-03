@@ -5,19 +5,43 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+This prgram reads a text file
+.fa which contains the specification of a DFA M and generates a .gra file that contains
+the specification of a regular grammar G such that L(M ) = L(G).
 
-In different fields of science there is a need to work with very big, or very small  numerical values.
-With this program im implementing data types in C++ to handle 
-very large numeric values, exceeding the representation range of the defined data types
-in standard language. To do this, the generic data type BigInt<size_t Base> is defined
-which represents integers using positional notation. In this numbering system, the value of a digit depends on its relative position and the base, which determines the number of
-digits needed to write any number. By default, the decimal system will be used
-(base 10), although it is also common to use the binary (base 2), octal (base 8) and hexadecimal (base 16).
+The execution of the program when executed from the command line should be:
 
-The representation range of the BigInt<size_t Base> data type encompasses any integer, positive or negative, that can be stored in machine memory.
-That is, the maximum range is limited by the maximum size that the system allows for the data structure where the digits are stored.
+```
+./dfa2grammar input.fa output.gra
+```
 
-Using the BigInt<Base> data type, the program implements a calculator for expressions in inverse Polish notation.
+The .fa files will contain the specification of a DFA and should have the following format:
+
+Line 1: Alphabet symbols separated by spaces.
+
+Line 2: Total number of states of the automaton.
+
+Line 3: PLC startup status.
+
+Next there will be a line for each of the states. Each line will contain
+the following numbers, separated from each other by white spaces:
+
+  • State identification number. The states of the automaton will be represented
+through natural numbers. The numbering of the states will correspond to the
+first numbers starting at 0.
+
+  • A 1 if it is an acceptance state and a 0 otherwise.
+
+  • Number of transitions that the state has.
+
+  • Next, for each of the transitions, and using spaces in
+white as separators, the following information will be detailed:
+
+    ◦ Input symbol necessary for the transition to occur. I'll stop-
+present the empty string (not consuming input symbol) will be used
+the character &
+
+    ◦ Destination state of the transition.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -49,10 +73,7 @@ No installation required :)
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Makefile included. Compile using
-```
-make 
-```
+1. Makefile included. Compile using make and you are good to go!
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
