@@ -34,7 +34,7 @@ the following numbers, separated from each other by white spaces:
 
   • Number of transitions that the state has.
 
-  • Next, for each of the transitions, and using spaces in
+Next, for each of the transitions, and using spaces in
 white as separators, the following information will be detailed:
 
   ◦ Input symbol necessary for the transition to occur. I'll stop-
