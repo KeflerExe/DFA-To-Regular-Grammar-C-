@@ -39,6 +39,22 @@ white as separators, the following information will be detailed:
 
 &emsp;• Destination state of the transition.
 
+The format of the output file containing the grammar _is the following:_
+
+1. Terminal symbols (alphabet): a line containing N, the number of symbols
+in the alphabet followed by N lines, each of which contains a symbol of the
+alphabet.
+
+2. Set of non-terminal symbols: a line containing V, the number of
+non-terminal symbols, followed by V lines, each of which contains a
+alphanumeric string without spaces.
+
+3. Boot symbol: a single line containing the boot symbol, S, of the
+grammar. It must be one of the non-terminal symbols listed above.
+
+4. Productions: a line containing P, the number of productions of the grammar, followed by P lines each of which contains a production.
+
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
