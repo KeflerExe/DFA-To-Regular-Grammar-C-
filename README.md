@@ -37,11 +37,11 @@ first numbers starting at 0.
   • Next, for each of the transitions, and using spaces in
 white as separators, the following information will be detailed:
 
-    ◦ Input symbol necessary for the transition to occur. I'll stop-
+  &nbsp;◦ Input symbol necessary for the transition to occur. I'll stop-
 present the empty string (not consuming input symbol) will be used
 the character &
 
-    ◦ Destination state of the transition.
+  &nbsp;◦ Destination state of the transition.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
