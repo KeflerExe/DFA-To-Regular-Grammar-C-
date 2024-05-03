@@ -23,14 +23,14 @@ Line 2: Total number of states of the automaton.
 
 Line 3: PLC startup status.
 
-Next there will be a line for each of the states. Each line will contain
+-Next there will be a line for each of the states. Each line will contain
 the following numbers, separated from each other by white spaces:
 
-• State identification number. The states of the automaton will be represented
-through natural numbers. The numbering of the states will correspond to the
-first numbers starting at 0.
+  -State identification number. The states of the automaton will be represented
+  through natural numbers. The numbering of the states will correspond to the
+  first numbers starting at 0.
   
-  • A 1 if it is an acceptance state and a 0 otherwise.
+  -A 1 if it is an acceptance state and a 0 otherwise.
 
   • Number of transitions that the state has.
 
