@@ -37,9 +37,7 @@ the following numbers, separated from each other by white spaces:
 Next, for each of the transitions, and using spaces in
 white as separators, the following information will be detailed:
 
-&emsp;◦ Input symbol necessary for the transition to occur. To represent
-&emsp;the empty string (not consuming input symbol) will be used
-&emsp;the character &
+&emsp;◦ Input symbol necessary for the transition to occur. To representthe empty string (not consuming input symbol) will be used the character &
 
 &emsp;• Destination state of the transition.
 
