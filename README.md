@@ -49,12 +49,10 @@ No installation required :)
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. Download the files
-2. Compile with g++
+1. Makefile included. Compile using
 ```
-g++ bigint_main.cc bigint_func.cc
+make 
 ```
-4. All ready!
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
